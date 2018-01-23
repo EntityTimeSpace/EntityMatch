@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+.not-found-content {
+  background-color: #fff;
+  width: 100%;
+  padding-top: 100px;
+  height: 580px; }
+.not-found-content .not-found {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+.not-found-content .not-found img {
+  float: left;
+  margin-top: -20px; }
+.not-found-content .not-found div {
+  display: inline-block; }
+.not-found-content .not-found div h1 {
+  margin-top: 40px;
+  font-size: 120px;
+  letter-spacing: 8px;
+  font-weight: lighter; }
+.not-found-content .not-found div p {
+  margin-bottom: 20px;
+  margin-top: 50%;
+  font-size: 16px; }
+.not-found-content .not-found div .btn {
+  padding: 4px 20px; }

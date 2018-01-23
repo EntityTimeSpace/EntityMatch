@@ -1,0 +1,23 @@
+[ 
+{ 
+"property":"国籍"
+}, 
+{ 
+"property":"乘员"
+}, 
+{ 
+"property":"首飞时间"
+}, 
+{ 
+"property":"研发单位"
+}, 
+{ 
+"property":"气动布局 "
+}, 
+{ 
+"property":"飞行速度"
+},
+{ 
+"property":"发动机数量"
+}
+] 

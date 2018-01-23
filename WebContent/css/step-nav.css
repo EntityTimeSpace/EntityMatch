@@ -1,0 +1,96 @@
+ul {
+	margin: 0 0 0 0;
+}
+.ideal-tabs .ideal-tabs-wrap {
+	margin-bottom: 2em;
+	border-radius: 3px;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(white),to(#E5E5E5));
+	background-image: -webkit-linear-gradient(white,#E5E5E5);
+	background-image: -moz-linear-gradient(white,#E5E5E5);
+	background-image: -o-linear-gradient(top,white,#E5E5E5);
+	filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#ffffff',EndColorStr='#e5e5e5',GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#e5e5e5', GradientType=0))";
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.08),inset 0 1px 0 rgba(255,255,255,0.5);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08),inset 0 1px 0 rgba(255, 255, 255, 0.5);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08),inset 0 1px 0 rgba(255, 255, 255, 0.5);
+	border: 1px solid #B2B2B2;
+	border-bottom-color: #999;
+	border-radius: 3px;
+	color: black;
+}
+
+.ideal-tabs .ideal-tabs-wrap::before, .ideal-tabs .ideal-tabs-wrap::after {
+	content: "";
+	display: table;
+}
+
+.ideal-tabs .ideal-tabs-wrap::after {
+	clear: both;
+}
+
+.ideal-tabs .ideal-tabs-tab:first-child {
+	padding-left: 1.5em;
+	border-radius: 3px 0 0 3px;
+}
+
+.ideal-tabs .ideal-tabs-tab {
+	list-style: none;
+	float: left;
+	position: relative;
+	padding: 0 1.5em 0 2.5em;
+	height: 37.5px;
+	line-height: 37.5px;
+	cursor: pointer;
+	background: #E5E5E5;
+	color: #4C4C4C;
+	font-size: 85%;
+	-webkit-transition: padding-right .15s ease-in-out;
+	-moz-transition: padding-right .15s ease-in-out;
+	-ms-transition: padding-right .15s ease-in-out;
+	-o-transition: padding-right .15s ease-in-out;
+}
+
+.ideal-tabs .ideal-tabs-tab::before {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	right: -30.5px;
+	border-width: 19px 19px 19px 12.666666666666666px;
+	border-style: solid;
+	border-color: transparent transparent transparent #E5E5E5;
+	border-left-color: #B2B2B2;
+	right: -31.5px;
+}
+
+.ideal-tabs .ideal-tabs-tab::after {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	right: -30.5px;
+	border-width: 19px 19px 19px 12.666666666666666px;
+	border-style: solid;
+	border-color: transparent transparent transparent #E5E5E5;
+}
+
+.ideal-tabs .ideal-tabs-wrap {
+	color: black;
+}
+
+.ideal-tabs .ideal-tabs-tab-active, .ideal-tabs .ideal-tabs-tab-active:hover {
+	color: #2191C9;
+	background: white;
+	font-weight: bold;
+	padding-right: 3.5em;
+	cursor: default;
+}
+
+.ideal-tabs .ideal-tabs-tab-active::after, .ideal-tabs .ideal-tabs-tab-active:hover::after {
+	border-left-color: white;
+}
+
+.ideal-tabs .ideal-tabs-tab-disabled {
+	cursor: default;
+	color: #CCCCCC;
+} 
